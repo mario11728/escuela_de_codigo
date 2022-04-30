@@ -27,3 +27,9 @@ inicio
 declarar (presioinicial,preciofinal,incremento,porcentaje)float
 mostrar("dame el precioinicial")
 asignar(precioinical)
+mostrar("dame el preciofinal")
+asignar(preciofinal)
+incremento=preciofinal-precioinicial
+porcentaje=(incremento*100)/precioinicial
+mostrar("el incremento fue de", porcentaje)
+fin
